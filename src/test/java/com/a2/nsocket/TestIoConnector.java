@@ -22,13 +22,12 @@ public class TestIoConnector extends IoHandlerAdapter{
 		while(buf.hasRemaining()){
 			System.out.print((char)buf.get());
 			Thread.sleep(2000);
-			//session.write("HAHAHAHA");
 		}		
 	}
 
 	@Override
 	public void sessionOpened(IoSession session) throws Exception {
-		//	session.write("I'm client");
+		 session.write("I'm client");
 	}
 
 
