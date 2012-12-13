@@ -10,10 +10,10 @@ communication, further more, on the final edition of nSocket, the pattern of arc
 will be based on P2P module.  <br/>
 
 already implementation：<br/>
-1、IoCommunicate--IoAcceptor--IoConnector
-2、IoSession
-3、IoHandler
-4、A Simple Polling
+1、IoCommunicate--IoAcceptor--IoConnector<br/>
+2、IoSession<br/>
+3、IoHandler<br/>
+4、A Simple Polling<br/>
 <br/>
 The Chinese introduction of nSocket is published on OSChina, you can click 
 <a href="http://my.oschina.net/ielts0909/blog/94803">here</a><br>
