@@ -16,5 +16,6 @@ already implementation：<br/>
 4、A Simple Polling
 <br/>
 The Chinese introduction of nSocket is published on OSChina, you can click 
-<a href="http://my.oschina.net/ielts0909/blog/94803">here</a>
+<a href="http://my.oschina.net/ielts0909/blog/94803">here</a><br>
+Thanks for sharing and fork nSocket.
 
