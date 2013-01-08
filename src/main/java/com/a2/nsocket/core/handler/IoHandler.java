@@ -11,7 +11,7 @@ public interface IoHandler {
 	
 	/**while doing the init in socket --binding*/
 	void sessionOpening() throws Exception;
-
+	
 	void sessionClosed() throws Exception;
 	
 	/**when accept or connect */
@@ -19,7 +19,7 @@ public interface IoHandler {
 	
 	/**when message receives*/
 	void messageReceive(IoSession session, Object message) throws Exception;
-	
+	/**when message send, actually its the time before sending the msg*/
 	void messageSend(IoSession session, Object message) throws Exception;
 
 	void execptionCaught(IoSession session, Throwable cause);
