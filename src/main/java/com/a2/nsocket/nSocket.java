@@ -6,5 +6,5 @@ package com.a2.nsocket;
  *
  */
 public class nSocket {
-	
+	 
 }
